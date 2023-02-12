@@ -94,3 +94,32 @@ The grep command in Linux is used to search for text patterns within one or more
 The basic syntax for the grep command is:
 
 grep [OPTIONS] PATTERN [FILE]...
+
+
+# Git Commands
+# 1. git config
+The git config command in Git is used to configure various settings for your Git repository and user account. The git config command is a global command, meaning that it affects settings for your entire Git installation, not just a single repository.
+# 2. git init
+The git init command is used to initialize a new Git repository. It creates a new directory that contains all the necessary files for a Git repository, including a .git directory that tracks all changes to the repository.
+
+# 3. git clone
+The git clone command is used to create a local copy of a remote Git repository. The git clone command downloads the entire repository, including all its branches, history, and files, and sets up a local repository with a remote connection to the original repository.
+# 4. git add
+The "git add" command is used in Git to stage changes made to files in your repository. When you modify files in your project, those changes are not immediately committed to the repository. Instead, you can stage those changes using the "git add" command, which prepares them to be committed in the next step.
+# 5. git commit
+The "git commit" command is used in Git to save changes to the local repository. After you have staged changes using the "git add" command, you can use "git commit" to record those changes permanently in the repository.
+
+# 6. git reset
+The "git reset" command is used in Git to undo changes to the staging area and working directory. It allows you to move the current branch pointer to a different commit, effectively "resetting" the state of your repository to a previous version.
+
+# 7. git status
+The "git status" command is used in Git to check the current status of your repository. It displays information about the current branch, any changes that have been made to the working directory, and any changes that have been staged but not yet committed.
+
+# 8. git log
+The "git log" command is used in Git to display a log of the commit history for a repository. The log shows a list of all commits that have been made, along with details such as the commit message, the author, and the date.
+
+# 9. git show
+The "git show" command is used in Git to display detailed information about a specific commit. The information displayed includes the commit message, the changes made in that commit, and information about the author and date of the commit.
+
+# 10. git merge
+The "git merge" command is used in Git to combine changes from multiple branches into a single branch. Merging is a common operation in Git and is used to integrate changes made in separate branches into a main branch, such as "master".
